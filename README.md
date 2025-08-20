@@ -66,13 +66,13 @@ make fclean   # full clean (binary + objects)
 ---
 ### 🎮 Controls
 ```
-    W / ↑ → Up
+    W  → Up
 
-    A / ← → Left
+    A  → Left
 
-    S / ↓ → Down
+    S  → Down
 
-    D / → → Right
+    D  → Right
 
     ESC → Exit
 ```
