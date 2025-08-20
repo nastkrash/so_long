@@ -75,7 +75,7 @@ make fclean   # full clean (binary + objects)
     D / → → Right
 
     ESC → Exit
-
+---
 ### 📑 Example Map (.ber)
 ```
 111111
@@ -85,11 +85,7 @@ make fclean   # full clean (binary + objects)
 111111
 ```
     1 = wall
-
     0 = empty space
-
     P = player
-
     C = collectible
-
     E = exit
