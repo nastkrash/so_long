@@ -1,8 +1,6 @@
 # so_long  
 
 A small 2D game written in **C** using the **MiniLibX graphics library**.  
-This project was developed as part of the **42 curriculum** to practice working with file I/O, 2D arrays, graphics rendering, and event handling in C.  
-
 ---
 
 ## 📖 Project Description  
