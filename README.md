@@ -47,4 +47,48 @@ so_long/
 └── maps/
 └── example.ber # Example map
 ```
+---
+## 🚀 Usage  
 
+### Build  
+```bash
+make
+
+Run
+
+./so_long maps/example.ber
+
+Clean
+
+make clean    # remove object files
+make fclean   # full clean (binary + objects)
+
+🎮 Controls
+
+    W / ↑ → Up
+
+    A / ← → Left
+
+    S / ↓ → Down
+
+    D / → → Right
+
+    ESC → Exit
+
+📑 Example Map (.ber)
+
+111111
+1P0C01
+100001
+1C0E01
+111111
+
+    1 = wall
+
+    0 = empty space
+
+    P = player
+
+    C = collectible
+
+    E = exit
