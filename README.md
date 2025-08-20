@@ -53,17 +53,18 @@ so_long/
 ### Build  
 ```bash
 make
-
+```
 Run
-
+```bash
 ./so_long maps/example.ber
-
+```
 Clean
-
+```bash
 make clean    # remove object files
 make fclean   # full clean (binary + objects)
-
-🎮 Controls
+```
+---
+### 🎮 Controls
 
     W / ↑ → Up
 
@@ -75,7 +76,7 @@ make fclean   # full clean (binary + objects)
 
     ESC → Exit
 
-📑 Example Map (.ber)
+### 📑 Example Map (.ber)
 
 111111
 1P0C01
