@@ -1,7 +1,7 @@
-```markdown
 # so_long  
 
 A small 2D game written in **C** using the **MiniLibX graphics library**.  
+This project was developed as part of the **42 curriculum** to practice working with file I/O, 2D arrays, graphics rendering, and event handling in C.  
 
 ---
 
@@ -29,82 +29,19 @@ A small 2D game written in **C** using the **MiniLibX graphics library**.
   - Prints clear error messages for invalid maps or missing files.  
 
 ---
-
 ## 📂 Project Structure  
-```
-
-so\_long/
+so_long/
 ├── Makefile
-├── so\_long.c
-├── flood\_fill.c
-├── is\_map\_valid.c
-├── key\_handler.c
-├── read\_map.c
-├── get\_next\_line.c
-├── get\_next\_line\_utils.c
+├── so_long.c
+├── flood_fill.c
+├── is_map_valid.c
+├── key_handler.c
+├── read_map.c
+├── get_next_line.c
+├── get_next_line_utils.c
 ├── assets/
-│   ├── libft/       # Custom C library
-│   ├── mini-libx/   # Graphics library
-│   └── images/      # .xpm files for game graphics
+│ ├── libft/ # Custom C library
+│ ├── mini-libx/ # Graphics library
+│ └── images/ # .xpm files for game graphics
 └── maps/
-└── example.ber  # Example map
-
-````
-
----
-
-## 🚀 Compilation & Usage  
-
-### Build the project
-```bash
-make
-````
-
-### Run the game
-
-```bash
-./so_long maps/example.ber
-```
-
-### Clean object files
-
-```bash
-make clean
-```
-
-### Full clean (binary + objects)
-
-```bash
-make fclean
-```
-
----
-
-## 🎮 Controls
-
-* **W / ↑** → Move up
-* **A / ←** → Move left
-* **S / ↓** → Move down
-* **D / →** → Move right
-* **ESC** → Exit game
-
----
-
-## 📑 Example Map (`.ber`)
-
-```
-111111
-1P0C01
-100001
-1C0E01
-111111
-```
-
-* `1` = wall
-* `0` = empty space
-* `P` = player
-* `C` = collectible
-* `E` = exit
-
----
-
+└── example.ber # Example map
