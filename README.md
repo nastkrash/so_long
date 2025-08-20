@@ -65,7 +65,7 @@ make fclean   # full clean (binary + objects)
 ```
 ---
 ### 🎮 Controls
-
+```
     W / ↑ → Up
 
     A / ← → Left
@@ -75,6 +75,7 @@ make fclean   # full clean (binary + objects)
     D / → → Right
 
     ESC → Exit
+```
 ---
 ### 📑 Example Map (.ber)
 ```
