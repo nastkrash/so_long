@@ -30,7 +30,7 @@ A small 2D game written in **C** using the **MiniLibX graphics library**.
 ## 📂 Project Structure  
 
 
-
+```
 so_long/
 ├── Makefile
 ├── so_long.c
@@ -46,5 +46,5 @@ so_long/
 │ └── images/ # .xpm files for game graphics
 └── maps/
 └── example.ber # Example map
-
+```
 
