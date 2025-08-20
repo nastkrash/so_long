@@ -77,13 +77,13 @@ make fclean   # full clean (binary + objects)
     ESC → Exit
 
 ### 📑 Example Map (.ber)
-
+```
 111111
 1P0C01
 100001
 1C0E01
 111111
-
+```
     1 = wall
 
     0 = empty space
